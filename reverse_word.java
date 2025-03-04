@@ -7,13 +7,13 @@ class reverse_word {
 
     public static String text(String str) {
         String[] words = str.split(                                                                                                                                           " ");
-        StringBuilder reversed = new StringBuilder();
+        StringBuilder reverse = new StringBuilder();
         for (int i = words.length - 1; i >= 0; i--) {
-            reversed.append(words[i]);
+            reverse.append(words[i]);
             if (i != 0) {
-                reversed.append(" ");
+                reverse.append(" ");
             }
         }
-        return reversed.toString();
+        return reverse.toString();
     }
 }
