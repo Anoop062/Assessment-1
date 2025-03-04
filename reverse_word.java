@@ -1,6 +1,6 @@
-public class reverse_word {
+class reverse_word {
     public static void main(String[] args) {
-        String a = "i love pdf";
+        String a = "i love java programming";
         String output = text(a);
         System.out.println(output);
     }
